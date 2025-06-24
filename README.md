@@ -1,12 +1,12 @@
-# 📄 Base de Códigos de Falha DTC GM (descricao_dtc_gm.csv)
+# 📄 Base de Códigos de Falha DTC GM (descricao_dtc_gm.json)
 
-Este repositório contém o arquivo `descricao_dtc_gm.csv`, uma tabela de códigos de falha (DTCs) utilizados em veículos da General Motors (GM), com descrições traduzidas para o português.
+Este repositório contém o arquivo `descricao_dtc_gm.json`, uma tabela de códigos de falha (DTCs) utilizados em veículos da General Motors (GM), com descrições traduzidas para o português.
 
 ## ✅ Finalidade
 
-Este CSV é utilizado por um script que converte os códigos de falha extraidos com XbusTrtool para exibir descrições compreensíveis dos códigos.  
+Este JSON é utilizado por um script que converte os códigos de falha extraidos com XbusTrtool para exibir descrições compreensíveis dos códigos.  
 
-## 🧩 Estrutura do CSV
+## 🧩 Estrutura do JSON
 
 | DTC     | Descrição                         |
 |---------|-----------------------------------|
