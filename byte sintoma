@@ -5,7 +5,6 @@
 *(00-0F) Falhas elétricas gerais* 
 
 | 00 | - | Este subtipo é usado para falhas que não podem ser designadas para um subtipo específico. Nenhuma informação disponível estádisponível. |
-| --- | --- | --- |
 | 01 | Curto com a bateria | Este subtipo é usado para falhas onde a Unidade de controle eletrônico mede o potencial do sistema do veículo (positivo dabateria) por um período de tempo maior que o especificado ou quando algum outro valor é esperado. |
 | 02 | Curto com o terra | Este subtipo é usado para falhas onde a Unidade de controle eletrônico mede o potencial do terra (negativo da bateria) porum período de tempo maior que o especificado ou quando algum outro valor é esperado. |
 | 03 | Voltagem baixa | Este subtipo é usado para falhas onde a Unidade de controle eletrônico mede a voltagem abaixo de um intervalo especificadomas não necessariamente um curto com o terra. |
@@ -25,7 +24,6 @@
 *(10-1F) Falhas elétricas gerais adicionais*
 
 | 10 | - | Não usado atualmente. |
-| --- | --- | --- |
 | 11 | Entrada alta | Este subtipo é usado para falhas onde algumas quantidades do circuito estão acima do intervalo especificado. |
 | 12 | Entrada baixa | Este subtipo é usado para falhas onde algumas quantidades do circuito estão abaixo do intervalo especificado. |
 | 13 | Voltagem baixa/Temperatura alta | Este subtipo é usado para falhas onde um sensor de temperatura com um coeficiente negativo de temperatura detecta uma voltagemabaixo de um intervalo especificado. |
@@ -41,12 +39,10 @@
 | 1D | - | Não usado atualmente. |
 | 1E | - | Não usado atualmente. |
 | 1F | Errático | Este subtipo é usado para falhas onde a Unidade de controle eletrônica detecta momentaneamente uma das condições definidasacima mas não o tempo suficiente para ativar um subtipo específico. |
-|  |  |  |
 
 *(20-2F) Falhas de FM / PWM*
 
 | 20 | - | Não usado atualmente. |
-| --- | --- | --- |
 | 21 | Período incorreto | Este subtipo é usado para falhas onde a Unidade de controle eletrônica mede uma duração incorreta para um ciclo da saída. |
 | 22 | Impulso baixo de tempo muito curto | Este subtipo é usado para falhas onde a Unidade de controle eletrônica detecta que o pulso baixo é muito estreito com respeitoao tempo. |
 | 23 | Impulso baixo de tempo muito longo | Este subtipo é usado para falhas onde a Unidade de controle eletrônica detecta que o pulso baixo é muito largo com respeitoao tempo. |
@@ -66,7 +62,6 @@
 *(30-3F) Falhas internas da Unidade de controle eletrônica*
 
 | 30 | - | Não usado atualmente. |
-| --- | --- | --- |
 | 31 | Erro de soma interno | Este subtipo é usado pela Unidade de controle eletrônica para indicar um cálculo de soma incorreto onde o tipo de memórianão é especificado. |
 | 32 | Funcionamento incorreto de memória geral | Este subtipo é usado pela Unidade de controle eletrônica para indicar uma falha da memória onde o tipo de memória não é especificado. |
 | 33 | Funcionamento incorreto da memória especial | Este subtipo é usado pela Unidade de controle eletrônica para indicar uma falha da memória onde a memória específica não édefinida nesta categoria. |
@@ -86,7 +81,6 @@
 *(40-4F) Falhas de programação da Unidade de controle eletrônica*
 
 | 40 | - | Não usado atualmente. |
-| --- | --- | --- |
 | 41 | Não programado | Este subtipo é usado para indicar que apenas o software de inicialização está presente na Unidade de controle eletrônica. |
 | 42 | Calibragem não programada | Este subtipo é usado para indicar que o software operacional está presente mas a calibragem de dados não. |
 | 43 | Programação incorreta da EEPROM | Este subtipo é usado para indicar um erro da EEPROM que pode ser remediado pela programação do módulo. |
@@ -106,7 +100,6 @@
 *(50-5F) Falhas baseadas em algoritmo*
 
 | 50 | - | Não usado atualmente. |
-| --- | --- | --- |
 | 51 | - | Não usado atualmente. |
 | 52 | - | Não usado atualmente. |
 | 53 | Temperatura baixa | Este subtipo é usado para falhas onde a Unidade de controle eletrônica calcula uma condição de temperatura baixa baseado na duração de certos parâmetros operacionais. |
@@ -126,7 +119,6 @@
 *(60-6F) Falhas mecânicas*
 
 | 60 | - | Não usado atualmente. |
-| --- | --- | --- |
 | 61 | Travado na posição | Este subtipo é usado para falhas onde a Unidade de controle eletrônica não detecta qualquer movimento em resposta à energizaçãode um motor, solenóide, relé, etc. |
 | 62 | Travado na posição aberto | Este subtipo é usado para falhas onde a Unidade de controle eletrônica não detecta qualquer movimento ao comandar a operaçãode um motor, solenóide, relé, etc., para fechar alguma peça de equipamento. |
 | 63 | Travado na posição fechado | Este subtipo é usado para falhas onde a Unidade de controle eletrônica não detecta qualquer movimento ao comandar a operaçãode um motor, solenóide, relé, etc., para abrir alguma peça de equipamento. |
@@ -146,7 +138,6 @@
 *(70-7F) Sinal de barramento / Falhas de mensagem*
 
 | 70 | - | Não usado atualmente. |
-| --- | --- | --- |
 | 71 | Dados inválidos | Este subtipo é usado para falhas onde a Unidade de controle eletrônica para indicar que um sinal foi recebido com o bit devalidade correspondente igual a Inválido ou o pós-processamento do sinal determina que ele é inválido. |
 | 72 | Contador de mensagens incorreto | Este subtipo é usado para falhas onde a Unidade de controle eletrônica para indicar que um sinal foi recebido sem o valorde contagem de rolagem correspondente sendo atualizado adequadamente. |
 | 73 | Erro de paridade | Este subtipo é usado para falhas onde a Unidade de controle eletrônica para indicar que uma mensagem foi processada com umcálculo de paridade incorreto. |
