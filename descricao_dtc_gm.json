@@ -3507,5 +3507,9 @@
   "U300B": "Acessório de entrada de ignição/ligar/iniciar",
   "U300F": "Acessório de entrada de ignição",
   "U3010": "Entrada de ignição Iniciar",
-  "B3902": "Identificação do Imobilizador Incorreta Recebida"
+  "B3902": "Identificação do Imobilizador Incorreta Recebida",
+  "B3031": "Imobilizador em modo de aprendizado",
+  "B3101": "Falha comunicação Keyless",
+  "B270A": "Solenóide de trava de cambio em P",
+  "B3105": "Falha nos transmissores Keyless"
 }
